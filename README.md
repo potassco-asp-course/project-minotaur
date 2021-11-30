@@ -9,7 +9,7 @@ The timeout per instance is `300` seconds, and
 the actual command call for the test is:
 * ``python3.6 asp/test.py asp/minotaur.lp 300 OPT``
 
-Your encoding has to find *one* optimal solution of the problem. This is what the script `test.py` checks.
+Note that the script `test.py` only computes and checks one optimal answer set.
 
 After a few minutes you will be able to see the result of the test in the **Actions** tab.
 You can get more information about the result of the test by clicking successively on:

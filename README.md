@@ -7,9 +7,9 @@ To submit your solution, please modify the file [minotaur.lp](asp/minotaur.lp) o
 Every time you push a new commit, your solution will be tested automatically.
 The timeout per instance is `300` seconds, and
 the actual command call for the test is:
-* ``python3.6 asp/test.py -e asp/minotaur.lp -i asp/instances -s asp/solutions -t 300 -opt``
+* ``python3.8 asp/test.py -e asp/minotaur.lp -i asp/instances -s asp/solutions -t 300 -opt``
 
-For help, type `python3.6 asp/test.py --help`.
+For help, type `python3.8 asp/test.py --help`.
 Note that the script `test.py` only computes and checks one optimal answer set.
 
 After a few minutes you will be able to see the result of the test in the **Actions** tab.
